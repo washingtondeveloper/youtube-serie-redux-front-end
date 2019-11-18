@@ -1,0 +1,13 @@
+i.fa {
+	color: #fff;
+	position: relative;
+}
+
+span.fa-counter {
+	position: absolute;
+	color: #333;
+	right: 10px;
+	top: 10px;
+	font-size: 20px;
+	font-weight: bold;
+}

@@ -1,0 +1,36 @@
+@import url('https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/cerulean/bootstrap.min.css');
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+html,
+body,
+#root {
+	height: 100%;
+}
+
+/** Layout **/
+
+.l-header {
+	grid-area: lheader;
+}
+
+.l-content {
+	grid-area: lcontent;
+}
+
+.l-footer {
+	grid-area: lfooter;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	background-color: #ddd;
+	font-weight: bold;
+}
+
+#root {
+	display: grid;
+
+	grid-template-columns: 1fr;
+	grid-template-rows: 55px 1fr 55px;
+	grid-template-areas: 'lheader' 'lcontent' 'lfooter';
+}
