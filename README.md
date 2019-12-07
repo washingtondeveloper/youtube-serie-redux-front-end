@@ -3,3 +3,4 @@
 - Branch Master Projeto sem Redux.
 - Branch Part-1 primerio video [Redux-1](https://youtu.be/vbLdVZiYBu0)
 - Branch Part-2 segundo video [Redux-2](https://youtu.be/4LIcojw7484)
+- Branch Part-3 terceiro video [Redux-3](https://youtu.be/q0cca7fcpJ0)
