@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
 import { useDispatch } from 'react-redux';
 
-import { addCar } from '../../store/cars';
-import { hideMessage, showMessage } from '../../store/layout';
+import { hideMessage, showMessage } from '../../store/ducks/layout';
+
+import { addCarFetch } from '../../store/fetchActions';
 
 export default function Add() {
 	const [ form, setForm ] = useState({ name: '', url: '' });
@@ -15,7 +16,7 @@ export default function Add() {
 	function onSubmit(e) {
 		e.preventDefault();
 
-		dispatch(addCar(form));
+		dispatch(addCarFetch(form));
 
 		setForm({ name: '', url: '' });
 
