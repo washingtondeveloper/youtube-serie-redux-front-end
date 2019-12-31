@@ -7,3 +7,4 @@
 - Branch Part-4 quarto video [Redux-4](https://youtu.be/SpZ3lnT_AbM)
 - Branch Part-5 quarto video [Redux-5](https://youtu.be/QT_nWZwRdLg)
 - Branch Part-7 setimo video [Redux-7](https://youtu.be/oaz1HXiXgpk)
+- Branch Part-8 oitavo video [Redux-8](https://youtu.be/oN7wuGz_sA0)
