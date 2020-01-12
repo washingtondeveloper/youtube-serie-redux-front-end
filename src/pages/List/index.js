@@ -4,6 +4,7 @@ import Car from '../../components/Car';
 
 import { getAllCars } from '../../store/fetchActions';
 import { addItem } from '../../store/ducks/cart';
+import { addMessage } from '../../store/ducks/layout';
 
 export default function List() {
 	const cars = useSelector((state) => state.cars);
@@ -18,6 +19,8 @@ export default function List() {
 
 	function addItemCart(car) {
 		dispatch(addItem(car));
+
+		dispatch(addMessage(`${car.name} adicionado com sucesso!!!`));
 	}
 
 	return (
