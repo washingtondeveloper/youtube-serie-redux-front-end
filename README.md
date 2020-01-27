@@ -11,3 +11,4 @@
 - Branch Part-9 nono video [Redux-9](https://youtu.be/SPUGoDSKk14)
 - Branch Part-10 decimo video [Redux-10](https://youtu.be/fjSYs7ZHRzo)
 - Branch Part-11 decimo primeiro video [Redux-11](https://youtu.be/RNHr47Qqm3U)
+- Branch Part-12 decimo segundo video [Redux-12](https://www.youtube.com/watch?v=Hi_K4n5i-M0)
